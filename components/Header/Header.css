@@ -1,0 +1,43 @@
+.header {
+    background: linear-gradient(to right, #97a1eb, #475ae3)
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: var(--site-width);
+    margin: 0 auto;
+}
+.title {
+    color: white;
+    font-size: 3.5rem;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.list {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.list-item {
+
+}
+
+.link {
+    color: white;
+    text-transform: uppercase;
+    margin: 0 1rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.link-title {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.link:focus,
+.link:hover {
+    color: #969696
+}

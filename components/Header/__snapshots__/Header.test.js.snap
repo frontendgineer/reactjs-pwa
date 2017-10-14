@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component should render as expected 1`] = `
+<header
+  className="header"
+>
+  <div
+    className="container"
+  >
+    <h1>
+      <Link
+        className="linkTitle"
+        replace={false}
+        to="/"
+      >
+        HTC
+      </Link>
+    </h1>
+    <nav>
+      <ul
+        className="list"
+      >
+        <li
+          className="listItem"
+        >
+          <Link
+            className="link"
+            replace={false}
+            to="/"
+          >
+            Posts
+          </Link>
+        </li>
+        <li
+          className="listItem"
+        >
+          <Link
+            className="link"
+            replace={false}
+            to="/about"
+          >
+            About
+          </Link>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+`;

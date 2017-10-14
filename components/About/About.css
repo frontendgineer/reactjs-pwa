@@ -1,0 +1,15 @@
+.heading {
+    font-size: 3rem;
+}
+.bio {
+    font-size: 1.8rem;
+    line-height: 1.7;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: var(--site-width);
+    margin: 0 auto;
+}
